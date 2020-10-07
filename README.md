@@ -1,6 +1,6 @@
-<p align="center"><img src="preview.jpg?v=3" /></p>
+<p align="center"><img src="language-solid.svg?v=3" /></p>
 <h1 align="center">language-sl</h1>
-<p align="center">Slovenian translations for WonderCMS (by Robert Isoski)</p>
+<p align="center">Swedish translations for WonderCMS (by Imerion</p>
 
 <br><br>
 
