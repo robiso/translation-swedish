@@ -1,0 +1,88 @@
+OVERLAYS
+    ">Saving","> Sparar"
+    ">Checking for updates",">Letar efter uppdateringar"
+
+
+BUTTONS
+    "> Settings","> Inställningar"
+
+
+MENU ITEMS
+    ">Current page",">Nuvarande sida"
+    ">Menu",">Meny"
+    ">Files",">Filer"
+    ">Themes",">Teman"
+    ">Plugins",">Tillägg"
+    ">Security",">Säkerhet"
+
+
+CURRENT PAGE
+    ">Page title",">Titel"
+    ">Page keywords",">Nyckelord"
+    ">Page description",">Beskrivning"
+    "> Delete page","> Ta bort sida"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Ta bort $1?')"
+
+
+MENU
+    ">Website title","> Webbplatsens titel"
+    ">Page to display on homepage","> Sida att visa på startsidan"
+    ">visit",">besök"
+    "> Add page","> Lägg till sida"
+
+
+FILES
+    ">Upload","> Ladda upp"
+    ">Delete files","> Ta bort filer"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Leta efter uppdateringar"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Ta bort $1?')"
+    ">Active",">Aktiv"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivera $1?')"
+    "> Activate","> Aktivera"
+    "> More info","> Mer information"
+    "> Install","> Installera"
+    ">Installed version:",">Installerad version:"
+    ">Custom repository",">Eget förråd (repository)"
+    "Enter URL to custom repository","Skriv in URL till eget förråd"
+    "> Add", "> Lägg till"
+    "> Read more about custom repositories",">Läs mer om egna förråd"
+
+
+SECURITY
+    ">Admin login URL","> URL för administratörsinloggning"
+    ">Save your login URL to log in to your website next time:",">Spara din URL för inloggning, som sedan används för att logga in nästa gång:"
+    ">Password",">Lösenord"
+    "Old password","Gammalt lösenord"
+    "New password","Nytt lösenord"
+    "> Change password","> Ändra lösenord"
+
+    "> How to restore backup","> Hur man återställer en säkerhetskopia"
+    ">Improved security \(Apache only\)",">Förbättrad säkerhet (endast Apache)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS-omdirigering, 30 dagars cache, iframe tillåts bara från samma ursprung, skydd mot mime-type sniffing."    ">ON \(warning: may break your website\)",">Vklop (lahko zlomi vaše spletno mesto)"
+    ">OFF \(reset htaccess to default\)",">Av (återställ htaccess till standard)"
+    "> Read more before enabling","> Läs mer innan du aktiverar"
+    ">Backup","> Säkerhetskopia"
+    "> Backup website","> Säkerhetskopiera sidan"
+    ">Last 5 logins",">Senaste 5 inloggningarna"
+
+
+STATISTICS
+    ">Statistics",">Statistik"
+    ">Today",">Idag"
+    ">This week",">Den här veckan"
+    ">Most popular page",">Populäraste sidan"
+    ">Pageviews last two weeks",">Sidvisningar de senaste två veckorna"
+    ">Sessions last two weeks",">Sessioner de senaste två veckorna"
+    ">Sessions",">Sessioner"
+    ">Pageviews",">Sidvisningar"
+
+
+FOOTER
+    ">News",">Nyheter"
+    ">Community",">Forum"
+    ">Docs",">Dokumentation"
+    ">Donate",">Donera"
+    ">Shop\/Merch",">Butik"
