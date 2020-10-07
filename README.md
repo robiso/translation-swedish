@@ -1,4 +1,4 @@
-<p align="center"><img src="language-solid.svg?v=3" /></p>
+<p align="center"><img src="preview.jpg?v=3" /></p>
 <h1 align="center">language-se</h1>
 <p align="center">Swedish translations for WonderCMS (by Imerion</p>
 
