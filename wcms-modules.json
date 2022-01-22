@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-swedish": {
+            "name": "Translation Swedish",
+            "repo": "https://github.com/robiso/translation-swedish/tree/main",
+            "zip": "https://github.com/robiso/translation-swedish/archive/main.zip",
+            "summary": "Swedish translation for WonderCMS settings.",
+            "version": "3.0.4",
+            "image": "https://raw.githubusercontent.com/robiso/translation-swedish/main/preview.jpg"
+        }
+    }
+}
