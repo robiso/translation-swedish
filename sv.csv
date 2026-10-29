@@ -61,7 +61,8 @@ SECURITY
 
     "> How to restore backup","> Hur man återställer en säkerhetskopia"
     ">Improved security \(Apache only\)",">Förbättrad säkerhet (endast Apache)"
-    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS-omdirigering, 30 dagars cache, iframe tillåts bara från samma ursprung, skydd mot mime-type sniffing."    ">ON \(warning: may break your website\)",">Vklop (lahko zlomi vaše spletno mesto)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS-omdirigering, 30 dagars cache, iframe tillåts bara från samma ursprung, skydd mot mime-type sniffing."
+    ">ON \(warning: may break your website\)",">På (varning: kan förstöra din webbplats)"
     ">OFF \(reset htaccess to default\)",">Av (återställ htaccess till standard)"
     "> Read more before enabling","> Läs mer innan du aktiverar"
     ">Backup","> Säkerhetskopia"
