@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Inställningar"
+    "return confirm\('Log out\?'\)","return confirm('Logga ut?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Webbplatsens titel"
     ">Page to display on homepage","> Sida att visa på startsidan"
     ">visit",">besök"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Gör sidan privat (bara du ser den när du är inloggad)"""
+    "title=""Make page public""","title=""Gör sidan offentlig"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privat</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> offentlig</a>"
     "> Add page","> Lägg till sida"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Leta efter uppdateringar"
+    "title=""Remove this repository from the list""","title=""Ta bort det här förrådet från listan"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Ta bort $1? Allt som installerats därifrån finns kvar."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Ta bort $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Ta bort $1?"""
     ">Active",">Aktiv"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivera $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivera $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Inaktivera $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Detta är ett $1-tillägg. Om du installerar $2 inaktiveras $3. Fortsätta?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Detta är ett $1-tillägg. Om du uppdaterar $2 förblir det aktiverat och $3 inaktiveras. Fortsätta?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Detta är ett $1-tillägg. Om du aktiverar $2 inaktiveras $3. Fortsätta?"""
     "> Activate","> Aktivera"
     "> More info","> Mer information"
     "> Install","> Installera"
     ">Installed version:",">Installerad version:"
     ">Custom repository",">Eget förråd (repository)"
     "Enter URL to custom repository","Skriv in URL till eget förråd"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Att lägga till okända moduler kan vara MYCKET farligt. Är du säker på att du vill fortsätta?')"
     "> Add", "> Lägg till"
     "> Read more about custom repositories",">Läs mer om egna förråd"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS-omdirigering, 30 dagars cache, iframe tillåts bara från samma ursprung, skydd mot mime-type sniffing."
     ">ON \(warning: may break your website\)",">På (varning: kan förstöra din webbplats)"
     ">OFF \(reset htaccess to default\)",">Av (återställ htaccess till standard)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Är du säker? Det kan förstöra din webbplats om SSL inte är korrekt konfigurerat.')"
     "> Read more before enabling","> Läs mer innan du aktiverar"
     ">Backup","> Säkerhetskopia"
     "> Backup website","> Säkerhetskopiera sidan"
