@@ -198,7 +198,7 @@ ALERTS
     "^<b>This page \(([^<]*?)\) doesn't exist\.<\/b> Editing the content below will create it\.$","<b>Den här sidan ($1) finns inte.</b> Om du redigerar innehållet nedan skapas den."
     "^Change your login URL and save it for later use\. <a ","Ändra din inloggnings-URL och spara den till senare. <a "
     "<b>Open security settings<\/b>","<b>Öppna säkerhetsinställningar</b>"
-    "<h3>New WonderCMS update available<\/h3>","<h3>Ny uppdatering av WonderCMS finns</h3>"
+    "<h3>New WonderCMS update available<\/h3>","<h3>En ny uppdatering för WonderCMS finns tillgänglig</h3>"
     "<b>Check what's new<\/b><\/u><\/a>\s+and <b>backup your website<\/b> before updating\.","<b>Se vad som är nytt</b></u></a> och <b>säkerhetskopiera webbplatsen</b> innan du uppdaterar."
     "name=""backup""><i class=""installIcon""><\/i>Download backup<\/button>","name=""backup""><i class=""installIcon""></i>Ladda ner säkerhetskopia</button>"
     "<i class=""refreshIcon""><\/i>Update WonderCMS ([^<]+) to ([^<]+)<\/button>","<i class=""refreshIcon""></i>Uppdatera WonderCMS $1 till $2</button>"
