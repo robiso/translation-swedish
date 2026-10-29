@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">Beskrivning"
     "> Delete page","> Ta bort sida"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Ta bort $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Ta bort $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Leta efter uppdateringar"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Ta bort $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Ta bort $1?"""
     ">Active",">Aktiv"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivera $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivera $1?"""
     "> Activate","> Aktivera"
     "> More info","> Mer information"
     "> Install","> Installera"
