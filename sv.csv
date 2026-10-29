@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Den egna modulen hittades inte."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Den egna modulen <b>$1</b> har tagits bort från <a $2>$3</a>. Allt som installerats därifrån finns kvar tills du tar bort det."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Modulen har lagts till i <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Alla återstående sidor är privata, så den nya startsidan ($1) är också privat: besökare får 404-sidan på webbplatsens adress. Gör den offentlig under Inställningar -> Meny."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","En privat sida kan inte vara startsida: besökare skulle få 404-sidan på webbplatsens adress. Gör den offentlig först."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","Kunde inte skriva $1. Kontrollera ledigt diskutrymme och behörigheterna för mappen data; inget har ändrats."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","Sidan kan inte sparas: dess överordnade sida finns inte. Skapa den överordnade sidan först."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Öppna filalternativen för att se den uppladdade filen</b>"
     "^Cannot create ZIP archive\.$","Det gick inte att skapa ZIP-arkivet."
     "^Hide all alerts until next login$","Dölj alla aviseringar till nästa inloggning"
+    "^Make another page public first: the home page cannot be private\.$","Gör först en annan sida offentlig: startsidan kan inte vara privat."
